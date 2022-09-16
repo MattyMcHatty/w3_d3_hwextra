@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Orders</title>
+</head>
+<body>
+    <h1>Our Current Orders</h1>
+    {%for order in orders%}
+    <div>
+        <p>
+            <a href="orders//{{orders.index(order)}}">{{order.customer_name}} on {{order.order_date}}</a>
+        </p>
+    </div>
+    {% endfor %}
+</body>
+</html>

@@ -1,0 +1,31 @@
+body > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    background-color: black;
+    height:4rem;
+    display:flex;
+    align-items:center;
+    padding: 10px;
+}
+
+body {
+    color:aqua;
+    background-color: darkslategray;
+}
+
+a:link{
+    color:aqua;
+}
+
+a:hover{
+    color:crimson;
+    text-decoration: underline;
+}
+
+a:visited{
+    color:chocolate;
+}
+
+a{
+    background-color: aliceblue;
+}
